@@ -1,6 +1,6 @@
 body {
     color: white;
-    background: url("./pic2.jpg") center/cover fixed;
+    background: url("./img.jpg") center/cover fixed;
 }
 
 main {
@@ -15,7 +15,7 @@ form {
     box-sizing: border-box;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 30px;
-    background: gray;
+    background: rgba(77, 71, 71, 0.782);
 }
  
 input[type='text'],
