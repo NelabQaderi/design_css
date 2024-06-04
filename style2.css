@@ -1,0 +1,46 @@
+body {
+    color: white;
+    background: url("./pic2.jpg") center/cover fixed;
+}
+
+main {
+    width: 30%;
+    margin: 170px auto;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 30px;
+    background: gray;
+}
+ 
+input[type='text'],
+input[type='password'],
+input[type='submit'] {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    color: black;
+}
+
+input[type='submit'] {
+    background: black;
+    color: white;
+    transition: 0.5s all;
+} 
+
+input[type='submit']:hover {
+    background: #4CAF50;
+    color: black;
+}
+
+
+
